@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1134.0" prefWidth="994.0" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controler_accueil">
+   <children>
+      <VBox alignment="CENTER" layoutX="-1.0" layoutY="-2.0" prefHeight="363.0" prefWidth="995.0" AnchorPane.bottomAnchor="773.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+         <children>
+            <ImageView fitHeight="152.0" fitWidth="657.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/téléchargement%20(1).png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="18.0" prefWidth="464.0" text="Avec Nous Le voyage Est  à Vos Mésures, Voyagez Plus Vite, Loin En Toute Sécurité" textAlignment="CENTER" />
+            <ImageView fitHeight="90.0" fitWidth="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/images%20(1).png" />
+               </image>
+            </ImageView>
+            <BorderPane prefHeight="55.0" prefWidth="981.0" style="-fx-background-color: violet;">
+               <center>
+                  <HBox alignment="CENTER" prefHeight="72.0" prefWidth="1022.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="214.0" styleClass="paneMenu" text="Accueil" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="180.0" styleClass="paneMenu" text="Enregistrer Client" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="206.0" styleClass="paneMenu" text="Enregistrer Reservation" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="423.0" layoutY="45.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="198.0" styleClass="paneMenu" text="Nos Compagnies" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="396.0" layoutY="45.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="184.0" styleClass="paneMenu" text="Caisse" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                     </children>
+                  </HBox>
+               </center>
+            </BorderPane>
+         </children>
+      </VBox>
+      <Pane layoutX="-1.0" layoutY="391.0" prefHeight="566.0" prefWidth="526.0" styleClass="pane" stylesheets="@application.css">
+         <children>
+            <Pane layoutX="106.0" layoutY="14.0" prefHeight="55.0" prefWidth="314.0" style="*: grey;" styleClass="paneEntete">
+               <children>
+                  <Label alignment="CENTER" layoutX="72.0" layoutY="13.0" text="ENREGISTRER CLIENT" textAlignment="CENTER">
+                     <font>
+                        <Font name="Agency FB Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="-96.0" layoutY="74.0" prefHeight="402.0" prefWidth="494.0" styleClass="paneInfoClient">
+                     <children>
+                        <Label layoutX="13.0" layoutY="152.0" prefHeight="21.0" prefWidth="81.0" text="PRENOM*" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="259.0" layoutY="208.0" text="EMAIL*" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="330.0" layoutY="204.0" prefHeight="29.0" prefWidth="150.0" style="-fx-background-color: white;" />
+                        <TextField layoutX="70.0" layoutY="32.0" prefHeight="25.0" prefWidth="405.0" style="-fx-background-color: white;" />
+                        <Label layoutX="11.0" layoutY="34.0" text="NOM*" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="292.0" layoutY="78.0" prefHeight="29.0" prefWidth="183.0" style="-fx-background-color: white;" />
+                        <Label layoutX="157.0" layoutY="82.0" prefHeight="21.0" prefWidth="81.0" text="CONTACT*" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="122.0" layoutY="148.0" prefHeight="29.0" prefWidth="358.0" style="-fx-background-color: white;" />
+                        <TextField layoutX="137.0" layoutY="265.0" prefHeight="25.0" prefWidth="343.0" style="-fx-background-color: white;" />
+                        <Label layoutX="269.0" layoutY="318.0" text="SEXE*" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="25.0" layoutY="267.0" prefHeight="17.0" prefWidth="63.0" text="ADRESSE" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+               </children>
+            </Pane>
+            <ComboBox layoutX="331.0" layoutY="404.0" prefWidth="150.0" />
+            <Button layoutX="395.0" layoutY="510.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" styleClass="paneEntete" text="Enregistrer">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button layoutX="291.0" layoutY="510.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: RED;" text="Annuler" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="529.0" layoutY="394.0" prefHeight="558.0" prefWidth="464.0" style="-fx-background-color: black;">
+         <children>
+            <TableView layoutY="-3.0" prefHeight="566.0" prefWidth="464.0" style="-fx-background-color: grey;">
+               <columns>
+                  <TableColumn prefWidth="51.0" style="-fx-background-color: white;" text="ID" />
+                  <TableColumn prefWidth="88.0" text="Nom" />
+                  <TableColumn prefWidth="74.0" text="Prenom" />
+                  <TableColumn prefWidth="50.0" text="Adresse" />
+                  <TableColumn prefWidth="81.5999755859375" text="Telephone" />
+                  <TableColumn prefWidth="48.0" text="Age" />
+                  <TableColumn prefWidth="101.5999755859375" text="Sexe" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
