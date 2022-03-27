@@ -3,7 +3,7 @@
 	-fx-background-color: transparent;
 }
 .pane{
-	-fx-background-color: #45818E;
+	-fx-background-color: #45818e;
 }
 
 .paneEntete{
@@ -17,5 +17,38 @@
 	-fx-background-color: #53527f;
 }
 .paneaccueil{
-	-fx-background-color: #FFFFF;
+	-fx-background-color: #FFFFFF;
+}
+
+.paneDate{
+	-fx-background-color: #134F5C;
+}
+
+.paneHeure{
+	-fx-background-color: #134F5C;
+}
+
+.paneCompagnie{
+	-fx-background-color: #134F5C;
+}
+
+.paneAeroport{
+	-fx-background-color: #134F5C;
+}
+
+.paneFacture{
+	-fx-background-color: #134F5C;
+}
+
+.paneListeInfo{
+	-fx-background-color: #134F5C;
+}
+
+.trans-btn-white-border{
+	-fx-background-color: #0066B4;
+	-fx-background-radius: 20px;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5px;
+	-fx-border-width: 5px;
+	-fx-text-fill: whiteamoke;
 }
